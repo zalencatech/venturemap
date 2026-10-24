@@ -92,7 +92,7 @@ def correlation(df, column_a, column_b):
     return {
         "n": len(pairs),
         "pearson": round(pairs[column_a].corr(pairs[column_b], method="pearson"), 3),
-        "spearman": round(pairs[column_a].corr(pairs[column_b], method="spearman"), 3),
+                   "spearman": round(pairs[column_a].rank().corr(pairs[column_b].rank()), 3),
     }
 
 
