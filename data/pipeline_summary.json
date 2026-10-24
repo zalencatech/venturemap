@@ -1,0 +1,12 @@
+{
+  "records_fetched": 1000,
+  "records_fetched_by_indicator": {
+    "gdp_growth_pct": 250,
+    "inflation_pct": 250,
+    "gdp_per_capita_usd": 250,
+    "internet_users_pct": 250
+  },
+  "records_cleaned": 250,
+  "records_rejected": 0,
+  "records_loaded": 250
+}

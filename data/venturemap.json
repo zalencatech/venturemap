@@ -1,0 +1,2334 @@
+{
+ "metadata": {
+  "generated_at_utc": "2026-10-24T18:30:02+00:00",
+  "source": "World Bank World Development Indicators (WDI) API",
+  "source_url": "https://api.worldbank.org/v2/",
+  "start_year": 2015,
+  "end_year": 2024,
+  "years": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "countries": [
+   "ARE",
+   "ARG",
+   "AUS",
+   "BGD",
+   "BRA",
+   "CAN",
+   "CHN",
+   "DEU",
+   "EGY",
+   "FRA",
+   "GBR",
+   "IDN",
+   "IND",
+   "JPN",
+   "KOR",
+   "MEX",
+   "NGA",
+   "NLD",
+   "PAK",
+   "SAU",
+   "SGP",
+   "TUR",
+   "USA",
+   "VNM",
+   "ZAF"
+  ],
+  "indicators": {
+   "gdp_growth_pct": {
+    "code": "NY.GDP.MKTP.KD.ZG",
+    "label": "GDP growth",
+    "unit": "% per year"
+   },
+   "inflation_pct": {
+    "code": "FP.CPI.TOTL.ZG",
+    "label": "Inflation (consumer prices)",
+    "unit": "% per year"
+   },
+   "gdp_per_capita_usd": {
+    "code": "NY.GDP.PCAP.CD",
+    "label": "GDP per capita",
+    "unit": "current US$"
+   },
+   "internet_users_pct": {
+    "code": "IT.NET.USER.ZS",
+    "label": "Internet users",
+    "unit": "% of population"
+   }
+  }
+ },
+ "pipeline_summary": {
+  "records_fetched": 1000,
+  "records_fetched_by_indicator": {
+   "gdp_growth_pct": 250,
+   "inflation_pct": 250,
+   "gdp_per_capita_usd": 250,
+   "internet_users_pct": 250
+  },
+  "records_cleaned": 250,
+  "records_rejected": 0,
+  "records_loaded": 250
+ },
+ "records": [
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2015,
+   "gdp_growth_pct": 7.08766622657654,
+   "inflation_pct": 4.06996608361593,
+   "gdp_per_capita_usd": 44910.3458860776,
+   "internet_users_pct": 90.5
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2016,
+   "gdp_growth_pct": 5.65790147196586,
+   "inflation_pct": 1.61748808904197,
+   "gdp_per_capita_usd": 42721.1136110991,
+   "internet_users_pct": 90.6000073180483
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2017,
+   "gdp_growth_pct": -1.06137114472548,
+   "inflation_pct": 1.96682557818842,
+   "gdp_per_capita_usd": 43733.6242018215,
+   "internet_users_pct": 94.8199225383446
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2018,
+   "gdp_growth_pct": 1.53720634021511,
+   "inflation_pct": 3.06863379251996,
+   "gdp_per_capita_usd": 47135.3478795605,
+   "internet_users_pct": 98.4500017817194
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2019,
+   "gdp_growth_pct": 1.27129120536284,
+   "inflation_pct": -1.93108114782172,
+   "gdp_per_capita_usd": 45938.6084572227,
+   "internet_users_pct": 99.1499979561243
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2020,
+   "gdp_growth_pct": -8.69343363776639,
+   "inflation_pct": -2.07940317940943,
+   "gdp_per_capita_usd": 37991.738387966,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2021,
+   "gdp_growth_pct": 4.55280140106356,
+   "inflation_pct": 0.179935336174431,
+   "gdp_per_capita_usd": 44118.4936214315,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2022,
+   "gdp_growth_pct": 7.51452414254605,
+   "inflation_pct": 5.29122604376849,
+   "gdp_per_capita_usd": 50759.7590190204,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2023,
+   "gdp_growth_pct": 4.30113648499413,
+   "inflation_pct": 1.62670837213248,
+   "gdp_per_capita_usd": 49850.6945082084,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "ARE",
+   "country_name": "United Arab Emirates",
+   "year": 2024,
+   "gdp_growth_pct": 3.99181200361831,
+   "inflation_pct": 1.66336510224894,
+   "gdp_per_capita_usd": 50273.5126243239,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2015,
+   "gdp_growth_pct": 2.73115982828944,
+   "inflation_pct": null,
+   "gdp_per_capita_usd": 13679.6264980954,
+   "internet_users_pct": 68.0430641088122
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2016,
+   "gdp_growth_pct": -2.08032784377811,
+   "inflation_pct": null,
+   "gdp_per_capita_usd": 12699.9623137756,
+   "internet_users_pct": 70.9689808206024
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2017,
+   "gdp_growth_pct": 2.81850297775918,
+   "inflation_pct": null,
+   "gdp_per_capita_usd": 14532.5009308511,
+   "internet_users_pct": 74.2949068657957
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2018,
+   "gdp_growth_pct": -2.61739646282038,
+   "inflation_pct": 34.2772237131003,
+   "gdp_per_capita_usd": 11752.7998922979,
+   "internet_users_pct": 77.7
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2019,
+   "gdp_growth_pct": -2.00086100285785,
+   "inflation_pct": 53.5483043492339,
+   "gdp_per_capita_usd": 9955.97478680428,
+   "internet_users_pct": 79.9469520347551
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2020,
+   "gdp_growth_pct": -9.9004848136464,
+   "inflation_pct": 42.0150947376509,
+   "gdp_per_capita_usd": 8535.59938004389,
+   "internet_users_pct": 85.51438646
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2021,
+   "gdp_growth_pct": 10.4418119882506,
+   "inflation_pct": 48.4093786255199,
+   "gdp_per_capita_usd": 10738.0179223384,
+   "internet_users_pct": 87.15070683
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2022,
+   "gdp_growth_pct": 6.02074537534855,
+   "inflation_pct": 72.430757531824,
+   "gdp_per_capita_usd": 13962.1894087223,
+   "internet_users_pct": 88.37535691
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2023,
+   "gdp_growth_pct": -1.85578803046339,
+   "inflation_pct": 133.488935594175,
+   "gdp_per_capita_usd": 14261.8465667948,
+   "internet_users_pct": 89.22897166
+  },
+  {
+   "country_code": "ARG",
+   "country_name": "Argentina",
+   "year": 2024,
+   "gdp_growth_pct": -1.34293072157739,
+   "inflation_pct": 219.883929014578,
+   "gdp_per_capita_usd": 13969.7836603737,
+   "internet_users_pct": 89.66715228
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2015,
+   "gdp_growth_pct": 2.16434780647852,
+   "inflation_pct": 1.50836803138463,
+   "gdp_per_capita_usd": 56970.3613028094,
+   "internet_users_pct": 84.5605149091408
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2016,
+   "gdp_growth_pct": 2.75564065529868,
+   "inflation_pct": 1.27699365720306,
+   "gdp_per_capita_usd": 50084.4440606385,
+   "internet_users_pct": 86.54000092
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2017,
+   "gdp_growth_pct": 2.29331030192918,
+   "inflation_pct": 1.94864309065653,
+   "gdp_per_capita_usd": 54117.547718609,
+   "internet_users_pct": 86.5450488476768
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2018,
+   "gdp_growth_pct": 2.87417039499501,
+   "inflation_pct": 1.91140002818579,
+   "gdp_per_capita_usd": 57410.1737346009,
+   "internet_users_pct": 90.0082016
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2019,
+   "gdp_growth_pct": 2.19401703622717,
+   "inflation_pct": 1.610770929127,
+   "gdp_per_capita_usd": 55194.7585097428,
+   "internet_users_pct": 93.60990143
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2020,
+   "gdp_growth_pct": -0.133531904304775,
+   "inflation_pct": 0.846900734607273,
+   "gdp_per_capita_usd": 51983.4523666382,
+   "internet_users_pct": 94.6934967
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2021,
+   "gdp_growth_pct": 2.00694844335034,
+   "inflation_pct": 2.86391284709318,
+   "gdp_per_capita_usd": 60758.9044397144,
+   "internet_users_pct": 96.97219849
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2022,
+   "gdp_growth_pct": 4.25304559238732,
+   "inflation_pct": 6.59409658717841,
+   "gdp_per_capita_usd": 65169.5191118657,
+   "internet_users_pct": 96.11940002
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2023,
+   "gdp_growth_pct": 3.58382100798981,
+   "inflation_pct": 5.59701792296707,
+   "gdp_per_capita_usd": 65058.3773146674,
+   "internet_users_pct": 96.1160965
+  },
+  {
+   "country_code": "AUS",
+   "country_name": "Australia",
+   "year": 2024,
+   "gdp_growth_pct": 1.37340773365975,
+   "inflation_pct": 3.16656665428797,
+   "gdp_per_capita_usd": 64609.9865116088,
+   "internet_users_pct": 96.13140106
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2015,
+   "gdp_growth_pct": 6.55263987816197,
+   "inflation_pct": 6.19428022984983,
+   "gdp_per_capita_usd": 1224.38647668165,
+   "internet_users_pct": 12.36880016
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2016,
+   "gdp_growth_pct": 7.11347821270093,
+   "inflation_pct": 5.51352572692995,
+   "gdp_per_capita_usd": 1649.28380858601,
+   "internet_users_pct": 16.89909935
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2017,
+   "gdp_growth_pct": 6.59024999794057,
+   "inflation_pct": 5.70207015717238,
+   "gdp_per_capita_usd": 1811.08221668646,
+   "internet_users_pct": 21.5
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2018,
+   "gdp_growth_pct": 7.31941263014136,
+   "inflation_pct": 5.54362139486476,
+   "gdp_per_capita_usd": 1965.24372731467,
+   "internet_users_pct": 25.56509972
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2019,
+   "gdp_growth_pct": 7.88191515117722,
+   "inflation_pct": 5.59199639930629,
+   "gdp_per_capita_usd": 2129.79896954606,
+   "internet_users_pct": 30.38310051
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2020,
+   "gdp_growth_pct": 3.44801755122445,
+   "inflation_pct": 5.69107474746211,
+   "gdp_per_capita_usd": 2248.85078828233,
+   "internet_users_pct": 36.10910034
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2021,
+   "gdp_growth_pct": 6.93867912442445,
+   "inflation_pct": 5.54565430773473,
+   "gdp_per_capita_usd": 2482.84917843357,
+   "internet_users_pct": 38.91744466
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2022,
+   "gdp_growth_pct": 7.09982877575158,
+   "inflation_pct": 7.69695437176898,
+   "gdp_per_capita_usd": 2716.48592780431,
+   "internet_users_pct": 41.61650085
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2023,
+   "gdp_growth_pct": 5.77511237007889,
+   "inflation_pct": 9.8835030377921,
+   "gdp_per_capita_usd": 2551.01773827307,
+   "internet_users_pct": 44.50274195
+  },
+  {
+   "country_code": "BGD",
+   "country_name": "Bangladesh",
+   "year": 2024,
+   "gdp_growth_pct": 4.22325911250161,
+   "inflation_pct": 10.4657482763412,
+   "gdp_per_capita_usd": 2593.41611680774,
+   "internet_users_pct": 53.42171316
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2015,
+   "gdp_growth_pct": -3.54576339269425,
+   "inflation_pct": 9.02990102416136,
+   "gdp_per_capita_usd": 8936.19661712113,
+   "internet_users_pct": 58.3279517340924
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2016,
+   "gdp_growth_pct": -3.27591690782192,
+   "inflation_pct": 8.73914352329393,
+   "gdp_per_capita_usd": 8836.28652735657,
+   "internet_users_pct": 60.8725400681261
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2017,
+   "gdp_growth_pct": 1.32286905404399,
+   "inflation_pct": 3.44637335032669,
+   "gdp_per_capita_usd": 10080.5092819305,
+   "internet_users_pct": 67.4712845236305
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2018,
+   "gdp_growth_pct": 1.783666761634,
+   "inflation_pct": 3.66485028376728,
+   "gdp_per_capita_usd": 9300.66164923219,
+   "internet_users_pct": 70.4342825404361
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2019,
+   "gdp_growth_pct": 1.22077782360842,
+   "inflation_pct": 3.73297621216893,
+   "gdp_per_capita_usd": 9029.83326681073,
+   "internet_users_pct": 73.9124399133589
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2020,
+   "gdp_growth_pct": -3.2767587964736,
+   "inflation_pct": 3.21176803803376,
+   "gdp_per_capita_usd": 7074.19378337644,
+   "internet_users_pct": 81.34269353
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2021,
+   "gdp_growth_pct": 4.76260437908608,
+   "inflation_pct": 8.30165975585673,
+   "gdp_per_capita_usd": 7972.5366498646,
+   "internet_users_pct": 80.68989314
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2022,
+   "gdp_growth_pct": 3.01669435393015,
+   "inflation_pct": 9.28010608956872,
+   "gdp_per_capita_usd": 9281.33334441234,
+   "internet_users_pct": 80.52775094
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2023,
+   "gdp_growth_pct": 3.24165532906981,
+   "inflation_pct": 4.59356282283203,
+   "gdp_per_capita_usd": 10377.5892792557,
+   "internet_users_pct": 84.15060238
+  },
+  {
+   "country_code": "BRA",
+   "country_name": "Brazil",
+   "year": 2024,
+   "gdp_growth_pct": 3.41931516501906,
+   "inflation_pct": 4.36746407652336,
+   "gdp_per_capita_usd": 10310.5486973693,
+   "internet_users_pct": 84.46347227
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2015,
+   "gdp_growth_pct": 0.64997101491096,
+   "inflation_pct": 1.12524136094277,
+   "gdp_per_capita_usd": 43594.2379080706,
+   "internet_users_pct": 90.0
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2016,
+   "gdp_growth_pct": 1.03855091989323,
+   "inflation_pct": 1.42875954701085,
+   "gdp_per_capita_usd": 42314.1033623905,
+   "internet_users_pct": 91.16000366
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2017,
+   "gdp_growth_pct": 3.03383491841392,
+   "inflation_pct": 1.59688412852976,
+   "gdp_per_capita_usd": 45129.7335281051,
+   "internet_users_pct": 92.70140076
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2018,
+   "gdp_growth_pct": 2.74296341402246,
+   "inflation_pct": 2.26822567248103,
+   "gdp_per_capita_usd": 46539.2177903178,
+   "internet_users_pct": 94.64
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2019,
+   "gdp_growth_pct": 1.90843193887251,
+   "inflation_pct": 1.94926902411592,
+   "gdp_per_capita_usd": 46352.9695208927,
+   "internet_users_pct": 91.91290283
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2020,
+   "gdp_growth_pct": -5.03823342794087,
+   "inflation_pct": 0.716999632307827,
+   "gdp_per_capita_usd": 43537.8981198851,
+   "internet_users_pct": 92.3
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2021,
+   "gdp_growth_pct": 5.95052804984759,
+   "inflation_pct": 3.39519318527527,
+   "gdp_per_capita_usd": 52886.6407813788,
+   "internet_users_pct": 93.93710327
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2022,
+   "gdp_growth_pct": 4.69541985045903,
+   "inflation_pct": 6.80280115341612,
+   "gdp_per_capita_usd": 56496.9275340663,
+   "internet_users_pct": 94.0
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2023,
+   "gdp_growth_pct": 1.95308552199025,
+   "inflation_pct": 3.87900159788425,
+   "gdp_per_capita_usd": 54847.5370112652,
+   "internet_users_pct": 94.14530182
+  },
+  {
+   "country_code": "CAN",
+   "country_name": "Canada",
+   "year": 2024,
+   "gdp_growth_pct": 2.04626605401701,
+   "inflation_pct": 2.38158383281173,
+   "gdp_per_capita_usd": 55015.7066917734,
+   "internet_users_pct": 94.353302
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2015,
+   "gdp_growth_pct": 6.98162255562367,
+   "inflation_pct": 1.43702380935654,
+   "gdp_per_capita_usd": 8175.33285077393,
+   "internet_users_pct": 50.29999924
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2016,
+   "gdp_growth_pct": 6.7736886867727,
+   "inflation_pct": 2.00000182191943,
+   "gdp_per_capita_usd": 8254.86859320357,
+   "internet_users_pct": 53.2
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2017,
+   "gdp_growth_pct": 6.89123916636191,
+   "inflation_pct": 1.59313600071435,
+   "gdp_per_capita_usd": 8979.67652709856,
+   "internet_users_pct": 54.3
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2018,
+   "gdp_growth_pct": 6.757806142324,
+   "inflation_pct": 2.07479039965576,
+   "gdp_per_capita_usd": 10085.6638148819,
+   "internet_users_pct": 65.35839844
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2019,
+   "gdp_growth_pct": 6.06737806333672,
+   "inflation_pct": 2.89923416358226,
+   "gdp_per_capita_usd": 10342.9009524335,
+   "internet_users_pct": 64.080881297515
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2020,
+   "gdp_growth_pct": 2.33950385203023,
+   "inflation_pct": 2.41942189457782,
+   "gdp_per_capita_usd": 10627.4637989619,
+   "internet_users_pct": 70.05275998
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2021,
+   "gdp_growth_pct": 8.57038414981781,
+   "inflation_pct": 0.981015135544881,
+   "gdp_per_capita_usd": 12887.4357242941,
+   "internet_users_pct": 73.05323517
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2022,
+   "gdp_growth_pct": 3.13385438394069,
+   "inflation_pct": 1.9735755573905,
+   "gdp_per_capita_usd": 12970.6056414327,
+   "internet_users_pct": 75.61131603
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2023,
+   "gdp_growth_pct": 5.41600334492955,
+   "inflation_pct": 0.23483682889305,
+   "gdp_per_capita_usd": 12951.1782397043,
+   "internet_users_pct": 90.6
+  },
+  {
+   "country_code": "CHN",
+   "country_name": "China",
+   "year": 2024,
+   "gdp_growth_pct": 4.95830378788091,
+   "inflation_pct": 0.218128938439177,
+   "gdp_per_capita_usd": 13293.1162269366,
+   "internet_users_pct": 92.0
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2015,
+   "gdp_growth_pct": 1.66300602334775,
+   "inflation_pct": 0.514426137125456,
+   "gdp_per_capita_usd": 41929.7549110722,
+   "internet_users_pct": 87.5897993525767
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2016,
+   "gdp_growth_pct": 2.22222216259371,
+   "inflation_pct": 0.491747008445174,
+   "gdp_per_capita_usd": 42948.9381932694,
+   "internet_users_pct": 84.1652066441212
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2017,
+   "gdp_growth_pct": 2.797906720551,
+   "inflation_pct": 1.50949485109628,
+   "gdp_per_capita_usd": 45553.9341495339,
+   "internet_users_pct": 84.3941537010844
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2018,
+   "gdp_growth_pct": 1.13569604599849,
+   "inflation_pct": 1.73216879766941,
+   "gdp_per_capita_usd": 48916.1686612154,
+   "internet_users_pct": 87.037112092841
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2019,
+   "gdp_growth_pct": 0.977734697038784,
+   "inflation_pct": 1.44565976888253,
+   "gdp_per_capita_usd": 47656.199739747,
+   "internet_users_pct": 88.1345169091916
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2020,
+   "gdp_growth_pct": -4.13191443239947,
+   "inflation_pct": 0.144877925813981,
+   "gdp_per_capita_usd": 47394.8734504469,
+   "internet_users_pct": 89.81294133
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2021,
+   "gdp_growth_pct": 3.90999994204108,
+   "inflation_pct": 3.06666666666673,
+   "gdp_per_capita_usd": 52349.2459994422,
+   "internet_users_pct": 91.43060973
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2022,
+   "gdp_growth_pct": 1.8092581243061,
+   "inflation_pct": 6.87257438551096,
+   "gdp_per_capita_usd": 50506.5179638543,
+   "internet_users_pct": 91.62984383
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2023,
+   "gdp_growth_pct": -0.869647578573321,
+   "inflation_pct": 5.94643667725823,
+   "gdp_per_capita_usd": 54776.7668235491,
+   "internet_users_pct": 92.4763763
+  },
+  {
+   "country_code": "DEU",
+   "country_name": "Germany",
+   "year": 2024,
+   "gdp_growth_pct": -0.495851897260366,
+   "inflation_pct": 2.2564981433876,
+   "gdp_per_capita_usd": 56103.7323182554,
+   "internet_users_pct": 93.49999579
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2015,
+   "gdp_growth_pct": 4.37201907781687,
+   "inflation_pct": 10.370490343517,
+   "gdp_per_capita_usd": 3306.98159414141,
+   "internet_users_pct": 37.8193834276939
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2016,
+   "gdp_growth_pct": 4.34664345601914,
+   "inflation_pct": 13.8136062148289,
+   "gdp_per_capita_usd": 3270.6287768197,
+   "internet_users_pct": 41.2480670885772
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2017,
+   "gdp_growth_pct": 4.18122099961562,
+   "inflation_pct": 29.5066083940038,
+   "gdp_per_capita_usd": 2395.10333299491,
+   "internet_users_pct": 44.9502042452857
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2018,
+   "gdp_growth_pct": 5.33110861887155,
+   "inflation_pct": 14.4014657807421,
+   "gdp_per_capita_usd": 2484.70315630508,
+   "internet_users_pct": 46.92433676792
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2019,
+   "gdp_growth_pct": 5.55209307084222,
+   "inflation_pct": 9.15279959324803,
+   "gdp_per_capita_usd": 2962.98892023003,
+   "internet_users_pct": 57.2828663990195
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2020,
+   "gdp_growth_pct": 3.55016483883115,
+   "inflation_pct": 5.04493288977538,
+   "gdp_per_capita_usd": 3511.11381026379,
+   "internet_users_pct": 71.91420096
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2021,
+   "gdp_growth_pct": 3.29064601193245,
+   "inflation_pct": 5.21404940513042,
+   "gdp_per_capita_usd": 3827.35415374308,
+   "internet_users_pct": 72.05599976
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2022,
+   "gdp_growth_pct": 6.58784560870467,
+   "inflation_pct": 13.8956609775177,
+   "gdp_per_capita_usd": 4233.30783744856,
+   "internet_users_pct": 72.19806556
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2023,
+   "gdp_growth_pct": 3.76028052279247,
+   "inflation_pct": 33.8847763115546,
+   "gdp_per_capita_usd": 3456.78965212363,
+   "internet_users_pct": 74.01190186
+  },
+  {
+   "country_code": "EGY",
+   "country_name": "Egypt, Arab Rep.",
+   "year": 2024,
+   "gdp_growth_pct": 2.3991692678251,
+   "inflation_pct": 28.2705899322082,
+   "gdp_per_capita_usd": 3338.47371043679,
+   "internet_users_pct": 74.64839935
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2015,
+   "gdp_growth_pct": 1.06675474783462,
+   "inflation_pct": 0.0403331518341644,
+   "gdp_per_capita_usd": 36702.4323733379,
+   "internet_users_pct": 78.0060377071902
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2016,
+   "gdp_growth_pct": 0.860031075424033,
+   "inflation_pct": 0.184449775233288,
+   "gdp_per_capita_usd": 37024.2157133669,
+   "internet_users_pct": 79.2698113207547
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2017,
+   "gdp_growth_pct": 2.08361485997399,
+   "inflation_pct": 1.02920611286052,
+   "gdp_per_capita_usd": 38687.1626407164,
+   "internet_users_pct": 80.5024597243607
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2018,
+   "gdp_growth_pct": 1.64590872395887,
+   "inflation_pct": 1.85222067317272,
+   "gdp_per_capita_usd": 41418.1766484844,
+   "internet_users_pct": 82.0431867788484
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2019,
+   "gdp_growth_pct": 2.02744646419237,
+   "inflation_pct": 1.1067657411029,
+   "gdp_per_capita_usd": 40408.2848574751,
+   "internet_users_pct": 83.3397440866883
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2020,
+   "gdp_growth_pct": -7.44064589948231,
+   "inflation_pct": 0.477700847097022,
+   "gdp_per_capita_usd": 39169.8606000707,
+   "internet_users_pct": 84.70639801
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2021,
+   "gdp_growth_pct": 6.88233783360239,
+   "inflation_pct": 1.64090620368408,
+   "gdp_per_capita_usd": 43725.0999521245,
+   "internet_users_pct": 86.09548575
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2022,
+   "gdp_growth_pct": 2.71676264185913,
+   "inflation_pct": 5.22294079215231,
+   "gdp_per_capita_usd": 40988.6396406579,
+   "internet_users_pct": 85.33331734
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2023,
+   "gdp_growth_pct": 1.43921494437743,
+   "inflation_pct": 4.88000215969119,
+   "gdp_per_capita_usd": 44700.1384177544,
+   "internet_users_pct": 86.83635789
+  },
+  {
+   "country_code": "FRA",
+   "country_name": "France",
+   "year": 2024,
+   "gdp_growth_pct": 1.19046798275883,
+   "inflation_pct": 1.99742599742599,
+   "gdp_per_capita_usd": 46103.0840855884,
+   "internet_users_pct": 88.65381638
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2015,
+   "gdp_growth_pct": 2.14040560033371,
+   "inflation_pct": 0.36804684232536,
+   "gdp_per_capita_usd": 45256.040227057,
+   "internet_users_pct": 92.0002998740234
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2016,
+   "gdp_growth_pct": 2.20652020635357,
+   "inflation_pct": 1.00841736811409,
+   "gdp_per_capita_usd": 41258.5374285695,
+   "internet_users_pct": 94.7758006318882
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2017,
+   "gdp_growth_pct": 3.02322219840339,
+   "inflation_pct": 2.55775577557747,
+   "gdp_per_capita_usd": 40918.0520870944,
+   "internet_users_pct": 90.4245504868553
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2018,
+   "gdp_growth_pct": 1.55133095078786,
+   "inflation_pct": 2.29283990345937,
+   "gdp_per_capita_usd": 43704.3162296687,
+   "internet_users_pct": 90.692008988783
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2019,
+   "gdp_growth_pct": 1.25629899760824,
+   "inflation_pct": 1.73810460086512,
+   "gdp_per_capita_usd": 43160.6843971799,
+   "internet_users_pct": 92.5166285497138
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2020,
+   "gdp_growth_pct": -10.047896637362,
+   "inflation_pct": 0.989486703772491,
+   "gdp_per_capita_usd": 40815.1255364787,
+   "internet_users_pct": 94.81820132
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2021,
+   "gdp_growth_pct": 8.5431118453255,
+   "inflation_pct": 2.51837109614213,
+   "gdp_per_capita_usd": 47695.6491523474,
+   "internet_users_pct": 96.19650269
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2022,
+   "gdp_growth_pct": 5.14970388522993,
+   "inflation_pct": 7.92204883147902,
+   "gdp_per_capita_usd": 47034.7795621476,
+   "internet_users_pct": 95.46530151
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2023,
+   "gdp_growth_pct": 0.271650048355255,
+   "inflation_pct": 6.79396706793962,
+   "gdp_per_capita_usd": 49919.6896621586,
+   "internet_users_pct": 95.44719696
+  },
+  {
+   "country_code": "GBR",
+   "country_name": "United Kingdom",
+   "year": 2024,
+   "gdp_growth_pct": 1.08027716858781,
+   "inflation_pct": 3.2715729463592,
+   "gdp_per_capita_usd": 53341.3131094262,
+   "internet_users_pct": 95.4720993
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2015,
+   "gdp_growth_pct": 4.87632230022123,
+   "inflation_pct": 6.36312061196646,
+   "gdp_per_capita_usd": 3288.22269725538,
+   "internet_users_pct": 22.062742603379
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2016,
+   "gdp_growth_pct": 5.03306918280177,
+   "inflation_pct": 3.52580452815451,
+   "gdp_per_capita_usd": 3521.46943457574,
+   "internet_users_pct": 25.447353701827
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2017,
+   "gdp_growth_pct": 5.06978590134916,
+   "inflation_pct": 3.80879857691948,
+   "gdp_per_capita_usd": 3798.88326174526,
+   "internet_users_pct": 32.335806250688
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2018,
+   "gdp_growth_pct": 5.17429153955024,
+   "inflation_pct": 3.19834755924996,
+   "gdp_per_capita_usd": 3860.95353090726,
+   "internet_users_pct": 39.9046386385762
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2019,
+   "gdp_growth_pct": 5.01928768046282,
+   "inflation_pct": 3.0305846094166,
+   "gdp_per_capita_usd": 4106.94856160358,
+   "internet_users_pct": 47.6906489788375
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2020,
+   "gdp_growth_pct": -2.06551182934165,
+   "inflation_pct": 1.91983527270792,
+   "gdp_per_capita_usd": 3853.70288774146,
+   "internet_users_pct": 53.72649449
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2021,
+   "gdp_growth_pct": 3.70288562827751,
+   "inflation_pct": 1.56007882983334,
+   "gdp_per_capita_usd": 4287.17313995098,
+   "internet_users_pct": 62.10447842
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2022,
+   "gdp_growth_pct": 5.30719722664799,
+   "inflation_pct": 4.20946463714784,
+   "gdp_per_capita_usd": 4730.83484836107,
+   "internet_users_pct": 66.48461277
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2023,
+   "gdp_growth_pct": 5.04883117855516,
+   "inflation_pct": 3.66938654859761,
+   "gdp_per_capita_usd": 4876.2992959843,
+   "internet_users_pct": 69.20836554
+  },
+  {
+   "country_code": "IDN",
+   "country_name": "Indonesia",
+   "year": 2024,
+   "gdp_growth_pct": 5.03257477088519,
+   "inflation_pct": 2.18151273615188,
+   "gdp_per_capita_usd": 4925.43644992666,
+   "internet_users_pct": 72.78075544
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2015,
+   "gdp_growth_pct": 7.99625378567987,
+   "inflation_pct": 4.90697344127249,
+   "gdp_per_capita_usd": 1583.99815907985,
+   "internet_users_pct": 14.89999962
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2016,
+   "gdp_growth_pct": 8.25630550176662,
+   "inflation_pct": 4.94821634062134,
+   "gdp_per_capita_usd": 1707.50892912243,
+   "internet_users_pct": 16.5
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2017,
+   "gdp_growth_pct": 6.79538341902422,
+   "inflation_pct": 3.32817337461304,
+   "gdp_per_capita_usd": 1950.10468280866,
+   "internet_users_pct": 18.20000076
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2018,
+   "gdp_growth_pct": 6.45385134495295,
+   "inflation_pct": 3.93882646691642,
+   "gdp_per_capita_usd": 1966.25455171679,
+   "internet_users_pct": 20.0813000379384
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2019,
+   "gdp_growth_pct": 3.87143694070524,
+   "inflation_pct": 3.72950573539123,
+   "gdp_per_capita_usd": 2041.42863698585,
+   "internet_users_pct": 29.52350044
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2020,
+   "gdp_growth_pct": -5.77772470687303,
+   "inflation_pct": 6.62343677628529,
+   "gdp_per_capita_usd": 1907.04251637669,
+   "internet_users_pct": 43.40544313
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2021,
+   "gdp_growth_pct": 9.68959249191741,
+   "inflation_pct": 5.13140747176363,
+   "gdp_per_capita_usd": 2239.61384367482,
+   "internet_users_pct": 49.2580986
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2022,
+   "gdp_growth_pct": 7.6093649776932,
+   "inflation_pct": 6.69903414079857,
+   "gdp_per_capita_usd": 2279.98145719369,
+   "internet_users_pct": 55.9
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2023,
+   "gdp_growth_pct": 7.210224629335,
+   "inflation_pct": 5.64914318907925,
+   "gdp_per_capita_usd": 2434.44826340989,
+   "internet_users_pct": 60.25230026
+  },
+  {
+   "country_code": "IND",
+   "country_name": "India",
+   "year": 2024,
+   "gdp_growth_pct": 7.09927893176518,
+   "inflation_pct": 4.9530355097366,
+   "gdp_per_capita_usd": 2591.9916607122,
+   "internet_users_pct": 64.9434967
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2015,
+   "gdp_growth_pct": 1.79997735783475,
+   "inflation_pct": 0.795279630579839,
+   "gdp_per_capita_usd": 35664.6446110613,
+   "internet_users_pct": 91.0580283929962
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2016,
+   "gdp_growth_pct": 0.704986495111257,
+   "inflation_pct": -0.127258844489753,
+   "gdp_per_capita_usd": 40214.9688631562,
+   "internet_users_pct": 93.1827212821617
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2017,
+   "gdp_growth_pct": 1.62345062245441,
+   "inflation_pct": 0.484199796126385,
+   "gdp_per_capita_usd": 39679.8635262948,
+   "internet_users_pct": 91.7265472366635
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2018,
+   "gdp_growth_pct": 0.834143845965585,
+   "inflation_pct": 0.989094598021848,
+   "gdp_per_capita_usd": 40645.478086519,
+   "internet_users_pct": 88.7463508901772
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2019,
+   "gdp_growth_pct": -0.308496921143259,
+   "inflation_pct": 0.468776159383949,
+   "gdp_per_capita_usd": 41424.8655601543,
+   "internet_users_pct": 92.7303978145525
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2020,
+   "gdp_growth_pct": -4.28327942675573,
+   "inflation_pct": -0.024995834027731,
+   "gdp_per_capita_usd": 41098.9739004553,
+   "internet_users_pct": 90.21945812
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2021,
+   "gdp_growth_pct": 3.56419531474475,
+   "inflation_pct": -0.233352779398263,
+   "gdp_per_capita_usd": 41580.739040705,
+   "internet_users_pct": 82.91407928
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2022,
+   "gdp_growth_pct": 1.33164750653741,
+   "inflation_pct": 2.49770278172254,
+   "gdp_per_capita_usd": 35548.2645222433,
+   "internet_users_pct": 84.92343147
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2023,
+   "gdp_growth_pct": 0.720785304749811,
+   "inflation_pct": 3.26813365933163,
+   "gdp_per_capita_usd": 35215.003535366,
+   "internet_users_pct": 85.00990295
+  },
+  {
+   "country_code": "JPN",
+   "country_name": "Japan",
+   "year": 2024,
+   "gdp_growth_pct": -0.240084236041696,
+   "inflation_pct": 2.7385368163524,
+   "gdp_per_capita_usd": 33797.1014287876,
+   "internet_users_pct": 85.54153081
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2015,
+   "gdp_growth_pct": 2.92029267301234,
+   "inflation_pct": 0.706331772455749,
+   "gdp_per_capita_usd": 30171.7906545222,
+   "internet_users_pct": 89.8962557995106
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2016,
+   "gdp_growth_pct": 3.17152748983935,
+   "inflation_pct": 0.971685739912167,
+   "gdp_per_capita_usd": 30832.0628072516,
+   "internet_users_pct": 92.8430256796075
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2017,
+   "gdp_growth_pct": 3.433191763972,
+   "inflation_pct": 1.94433230786366,
+   "gdp_per_capita_usd": 33296.9845439195,
+   "internet_users_pct": 95.0694218761004
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2018,
+   "gdp_growth_pct": 3.17611568177327,
+   "inflation_pct": 1.47583935002645,
+   "gdp_per_capita_usd": 35363.9508228687,
+   "internet_users_pct": 96.0228595797887
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2019,
+   "gdp_growth_pct": 2.31380210595475,
+   "inflation_pct": 0.383000303608135,
+   "gdp_per_capita_usd": 33826.9443301597,
+   "internet_users_pct": 96.157579184239
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2020,
+   "gdp_growth_pct": -0.700242317542106,
+   "inflation_pct": 0.537288023411737,
+   "gdp_per_capita_usd": 33645.7719545073,
+   "internet_users_pct": 96.50506052
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2021,
+   "gdp_growth_pct": 4.61296795454287,
+   "inflation_pct": 2.49833333333339,
+   "gdp_per_capita_usd": 37518.4635305697,
+   "internet_users_pct": 97.57132698
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2022,
+   "gdp_growth_pct": 2.72756456708991,
+   "inflation_pct": 5.08951365062841,
+   "gdp_per_capita_usd": 34822.4048404971,
+   "internet_users_pct": 97.16855335
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2023,
+   "gdp_growth_pct": 1.58301467403629,
+   "inflation_pct": 3.5974562502901,
+   "gdp_per_capita_usd": 35674.095995632,
+   "internet_users_pct": 97.41597478
+  },
+  {
+   "country_code": "KOR",
+   "country_name": "Korea, Rep.",
+   "year": 2024,
+   "gdp_growth_pct": 2.00361101838986,
+   "inflation_pct": 2.32174328643542,
+   "gdp_per_capita_usd": 36238.639908315,
+   "internet_users_pct": 97.89563777
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2015,
+   "gdp_growth_pct": 2.70232343024026,
+   "inflation_pct": 2.72064064964022,
+   "gdp_per_capita_usd": 10021.2386113616,
+   "internet_users_pct": 57.4310429923633
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2016,
+   "gdp_growth_pct": 1.7724932254128,
+   "inflation_pct": 2.8217078474766,
+   "gdp_per_capita_usd": 9097.92397674769,
+   "internet_users_pct": 59.5404459967255
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2017,
+   "gdp_growth_pct": 1.87172854648381,
+   "inflation_pct": 6.04145724018985,
+   "gdp_per_capita_usd": 9649.27816729586,
+   "internet_users_pct": 53.0317886110982
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2018,
+   "gdp_growth_pct": 1.97208211101069,
+   "inflation_pct": 4.8993501535655,
+   "gdp_per_capita_usd": 10084.7937570364,
+   "internet_users_pct": 56.6595667981289
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2019,
+   "gdp_growth_pct": -0.392690513290532,
+   "inflation_pct": 3.63596142127046,
+   "gdp_per_capita_usd": 10369.5553593527,
+   "internet_users_pct": 69.6321092705209
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2020,
+   "gdp_growth_pct": -8.35403459379062,
+   "inflation_pct": 3.39683415570006,
+   "gdp_per_capita_usd": 8841.27074929751,
+   "internet_users_pct": 71.49017499
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2021,
+   "gdp_growth_pct": 6.04848347173572,
+   "inflation_pct": 5.68920847683753,
+   "gdp_per_capita_usd": 10314.0506733708,
+   "internet_users_pct": 75.62650476
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2022,
+   "gdp_growth_pct": 3.70975708309098,
+   "inflation_pct": 7.89627619168549,
+   "gdp_per_capita_usd": 11405.7940469896,
+   "internet_users_pct": 78.63217894
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2023,
+   "gdp_growth_pct": 3.1067964131456,
+   "inflation_pct": 5.52796087314388,
+   "gdp_per_capita_usd": 13830.843848864,
+   "internet_users_pct": 81.18318755
+  },
+  {
+   "country_code": "MEX",
+   "country_name": "Mexico",
+   "year": 2024,
+   "gdp_growth_pct": 1.35057631384696,
+   "inflation_pct": 4.72225588452931,
+   "gdp_per_capita_usd": 13988.0423745241,
+   "internet_users_pct": 83.12233799
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2015,
+   "gdp_growth_pct": 2.65269329541779,
+   "inflation_pct": 9.00943498007706,
+   "gdp_per_capita_usd": 2585.73360671797,
+   "internet_users_pct": 22.51420021
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2016,
+   "gdp_growth_pct": -1.61686894903467,
+   "inflation_pct": 15.6968126387972,
+   "gdp_per_capita_usd": 2070.4127339595,
+   "internet_users_pct": 24.13750076
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2017,
+   "gdp_growth_pct": 0.805886619091581,
+   "inflation_pct": 16.5022662139641,
+   "gdp_per_capita_usd": 1876.34027111773,
+   "internet_users_pct": 25.87789917
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2018,
+   "gdp_growth_pct": 1.92275734199798,
+   "inflation_pct": 12.0951065173431,
+   "gdp_per_capita_usd": 2057.87944554011,
+   "internet_users_pct": 27.74370003
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2019,
+   "gdp_growth_pct": 2.20842927835211,
+   "inflation_pct": 11.3964223378114,
+   "gdp_per_capita_usd": 3189.81286496183,
+   "internet_users_pct": 29.74410057
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2020,
+   "gdp_growth_pct": -6.36889840468527,
+   "inflation_pct": 13.2460234276598,
+   "gdp_per_capita_usd": 2797.184580679,
+   "internet_users_pct": 31.88879967
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2021,
+   "gdp_growth_pct": 1.109252540249,
+   "inflation_pct": 16.9528457221607,
+   "gdp_per_capita_usd": 2787.48779220991,
+   "internet_users_pct": 35.50979996
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2022,
+   "gdp_growth_pct": 4.31882949157136,
+   "inflation_pct": 18.8471877843274,
+   "gdp_per_capita_usd": 2899.16047469267,
+   "internet_users_pct": 39.14720154
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2023,
+   "gdp_growth_pct": 3.31590368111438,
+   "inflation_pct": 24.6595502031139,
+   "gdp_per_capita_usd": 2138.76383718757,
+   "internet_users_pct": 40.06399918
+  },
+  {
+   "country_code": "NGA",
+   "country_name": "Nigeria",
+   "year": 2024,
+   "gdp_growth_pct": 4.07106650147703,
+   "inflation_pct": 33.2416590552748,
+   "gdp_per_capita_usd": 1084.16041805058,
+   "internet_users_pct": 41.21139908
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2015,
+   "gdp_growth_pct": 2.12064007193544,
+   "inflation_pct": 0.600935791194569,
+   "gdp_per_capita_usd": 45793.8135434697,
+   "internet_users_pct": 91.7241379310345
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2016,
+   "gdp_growth_pct": 2.42428065449427,
+   "inflation_pct": 0.319406464338503,
+   "gdp_per_capita_usd": 46808.5291492503,
+   "internet_users_pct": 90.4109589041096
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2017,
+   "gdp_growth_pct": 2.78150834679987,
+   "inflation_pct": 1.37968786656694,
+   "gdp_per_capita_usd": 49513.6817346384,
+   "internet_users_pct": 93.1972789115646
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2018,
+   "gdp_growth_pct": 2.25873158164956,
+   "inflation_pct": 1.70361881253579,
+   "gdp_per_capita_usd": 53955.0770024266,
+   "internet_users_pct": 91.8918918918919
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2019,
+   "gdp_growth_pct": 2.3001616053659,
+   "inflation_pct": 2.63397403948254,
+   "gdp_per_capita_usd": 53554.9007491475,
+   "internet_users_pct": 93.2885906040269
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2020,
+   "gdp_growth_pct": -3.86799714191608,
+   "inflation_pct": 1.26788070731057,
+   "gdp_per_capita_usd": 53467.9277413737,
+   "internet_users_pct": 91.33333333
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2021,
+   "gdp_growth_pct": 6.27683593745216,
+   "inflation_pct": 2.68123345078501,
+   "gdp_per_capita_usd": 60141.9880911492,
+   "internet_users_pct": 92.05298013
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2022,
+   "gdp_growth_pct": 5.00723453395074,
+   "inflation_pct": 9.99817255172687,
+   "gdp_per_capita_usd": 59123.318556487,
+   "internet_users_pct": 92.51968504
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2023,
+   "gdp_growth_pct": -0.598061017580278,
+   "inflation_pct": 3.84231997489532,
+   "gdp_per_capita_usd": 63515.6030780019,
+   "internet_users_pct": 97.00680272
+  },
+  {
+   "country_code": "NLD",
+   "country_name": "Netherlands",
+   "year": 2024,
+   "gdp_growth_pct": 1.07383137319854,
+   "inflation_pct": 3.34639895475025,
+   "gdp_per_capita_usd": 67465.3208126875,
+   "internet_users_pct": 97.00679779
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2015,
+   "gdp_growth_pct": 4.21794209572506,
+   "inflation_pct": 2.52932817254228,
+   "gdp_per_capita_usd": 1380.47020838317,
+   "internet_users_pct": 11.0
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2016,
+   "gdp_growth_pct": 6.57383828511043,
+   "inflation_pct": 3.7651191635658,
+   "gdp_per_capita_usd": 1424.69161195897,
+   "internet_users_pct": 12.385446763381
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2017,
+   "gdp_growth_pct": 4.43262590683975,
+   "inflation_pct": 4.08537368032608,
+   "gdp_per_capita_usd": 1519.23459514248,
+   "internet_users_pct": 13.77999973
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2018,
+   "gdp_growth_pct": 6.15170261099519,
+   "inflation_pct": 5.07805725868916,
+   "gdp_per_capita_usd": 1569.33814626355,
+   "internet_users_pct": 15.34000015
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2019,
+   "gdp_growth_pct": 2.49763692943365,
+   "inflation_pct": 10.5780305672024,
+   "gdp_per_capita_usd": 1390.41690981745,
+   "internet_users_pct": 17.070901719916
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2020,
+   "gdp_growth_pct": -1.27408744338709,
+   "inflation_pct": 9.74011619320125,
+   "gdp_per_capita_usd": 1278.39735206896,
+   "internet_users_pct": 18.935
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2021,
+   "gdp_growth_pct": 6.51388575852702,
+   "inflation_pct": 9.49641577285205,
+   "gdp_per_capita_usd": 1455.31922370186,
+   "internet_users_pct": null
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2022,
+   "gdp_growth_pct": 4.7781068690358,
+   "inflation_pct": 19.8738599646655,
+   "gdp_per_capita_usd": 1538.3228133171,
+   "internet_users_pct": null
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2023,
+   "gdp_growth_pct": -0.414935997088406,
+   "inflation_pct": 30.7681280657005,
+   "gdp_per_capita_usd": 1360.32417758419,
+   "internet_users_pct": null
+  },
+  {
+   "country_code": "PAK",
+   "country_name": "Pakistan",
+   "year": 2024,
+   "gdp_growth_pct": 3.08176295579301,
+   "inflation_pct": 12.6325318530451,
+   "gdp_per_capita_usd": 1479.47755241191,
+   "internet_users_pct": 57.253
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2015,
+   "gdp_growth_pct": 4.65512316652699,
+   "inflation_pct": 1.18395043440954,
+   "gdp_per_capita_usd": 23256.1549553531,
+   "internet_users_pct": 69.6162358014004
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2016,
+   "gdp_growth_pct": 1.70404739202878,
+   "inflation_pct": 2.91657616797142,
+   "gdp_per_capita_usd": 22267.7217050387,
+   "internet_users_pct": 74.8792746891625
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2017,
+   "gdp_growth_pct": 1.18210705878283,
+   "inflation_pct": -0.859586773607416,
+   "gdp_per_capita_usd": 23929.2907135982,
+   "internet_users_pct": 94.1755996113911
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2018,
+   "gdp_growth_pct": 3.2269508901591,
+   "inflation_pct": 2.4733093049351,
+   "gdp_per_capita_usd": 29360.0658968566,
+   "internet_users_pct": 93.3100018480347
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2019,
+   "gdp_growth_pct": 1.65158925617395,
+   "inflation_pct": -2.03668661515358,
+   "gdp_per_capita_usd": 29566.7933827436,
+   "internet_users_pct": 95.7247355953812
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2020,
+   "gdp_growth_pct": -3.80478901996312,
+   "inflation_pct": 3.18677098411784,
+   "gdp_per_capita_usd": 24338.8307301067,
+   "internet_users_pct": 97.8623325
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2021,
+   "gdp_growth_pct": 6.51959698325419,
+   "inflation_pct": 3.12995508227416,
+   "gdp_per_capita_usd": 31920.7653655643,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2022,
+   "gdp_growth_pct": 12.0005874752929,
+   "inflation_pct": 2.5441644569453,
+   "gdp_per_capita_usd": 38510.2276211037,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2023,
+   "gdp_growth_pct": 0.542592439393161,
+   "inflation_pct": 2.47391224946225,
+   "gdp_per_capita_usd": 36156.8562500172,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "SAU",
+   "country_name": "Saudi Arabia",
+   "year": 2024,
+   "gdp_growth_pct": 2.64893068308965,
+   "inflation_pct": 1.50098521057891,
+   "gdp_per_capita_usd": 35527.786181866,
+   "internet_users_pct": 100.0
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2015,
+   "gdp_growth_pct": 2.97679931634806,
+   "inflation_pct": -0.521975611895762,
+   "gdp_per_capita_usd": 55645.6068614606,
+   "internet_users_pct": 79.0129570025584
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2016,
+   "gdp_growth_pct": 3.91095306322606,
+   "inflation_pct": -0.529809760375464,
+   "gdp_per_capita_usd": 57204.0340105222,
+   "internet_users_pct": 84.4522678893074
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2017,
+   "gdp_growth_pct": 4.32679370770501,
+   "inflation_pct": 0.576763191179995,
+   "gdp_per_capita_usd": 61436.1325502558,
+   "internet_users_pct": 84.4522678893074
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2018,
+   "gdp_growth_pct": 3.18660848474074,
+   "inflation_pct": 0.438784215129622,
+   "gdp_per_capita_usd": 67032.8225769734,
+   "internet_users_pct": 88.1656360313447
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2019,
+   "gdp_growth_pct": 1.15877947300108,
+   "inflation_pct": 0.567829988405447,
+   "gdp_per_capita_usd": 66068.7003106378,
+   "internet_users_pct": 88.9492526850762
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2020,
+   "gdp_growth_pct": -3.61084281729929,
+   "inflation_pct": -0.172111865925382,
+   "gdp_per_capita_usd": 61772.5036492256,
+   "internet_users_pct": 92.00434653
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2021,
+   "gdp_growth_pct": 10.1410845197192,
+   "inflation_pct": 2.31610315765145,
+   "gdp_per_capita_usd": 80884.8565369236,
+   "internet_users_pct": 96.92468156
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2022,
+   "gdp_growth_pct": 4.01027884472296,
+   "inflation_pct": 6.13095418919732,
+   "gdp_per_capita_usd": 91227.6970426492,
+   "internet_users_pct": 95.95386476
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2023,
+   "gdp_growth_pct": 1.45026775889565,
+   "inflation_pct": 4.83372362825797,
+   "gdp_per_capita_usd": 86382.5900499252,
+   "internet_users_pct": 94.28518987
+  },
+  {
+   "country_code": "SGP",
+   "country_name": "Singapore",
+   "year": 2024,
+   "gdp_growth_pct": 5.3435120192366,
+   "inflation_pct": 2.38951123595017,
+   "gdp_per_capita_usd": 94896.5621495988,
+   "internet_users_pct": 94.37757178
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2015,
+   "gdp_growth_pct": 5.80557386628684,
+   "inflation_pct": 7.67085521554052,
+   "gdp_per_capita_usd": 11064.6494504662,
+   "internet_users_pct": 53.7449791423583
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2016,
+   "gdp_growth_pct": 3.32366508200445,
+   "inflation_pct": 7.7751335303658,
+   "gdp_per_capita_usd": 10984.3643169061,
+   "internet_users_pct": 58.3477340145685
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2017,
+   "gdp_growth_pct": 7.82585730002594,
+   "inflation_pct": 11.1443085201022,
+   "gdp_per_capita_usd": 10756.3877677883,
+   "internet_users_pct": 64.6846176835371
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2018,
+   "gdp_growth_pct": 3.46815306092219,
+   "inflation_pct": 16.3324781477783,
+   "gdp_per_capita_usd": 9684.11819884721,
+   "internet_users_pct": 71.0427608433809
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2019,
+   "gdp_growth_pct": 1.30162365464503,
+   "inflation_pct": 15.176809642769,
+   "gdp_per_capita_usd": 9395.23378001368,
+   "internet_users_pct": 73.9767022871511
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2020,
+   "gdp_growth_pct": 1.80306247087255,
+   "inflation_pct": 12.2789597724893,
+   "gdp_per_capita_usd": 8798.11791709313,
+   "internet_users_pct": 77.6695605
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2021,
+   "gdp_growth_pct": 11.811094450607,
+   "inflation_pct": 19.5964927532842,
+   "gdp_per_capita_usd": 9981.76398411336,
+   "internet_users_pct": 81.40843745
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2022,
+   "gdp_growth_pct": 5.44122511322401,
+   "inflation_pct": 72.3088300496956,
+   "gdp_per_capita_usd": 10897.8397861365,
+   "internet_users_pct": 83.43716576
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2023,
+   "gdp_growth_pct": 5.04512369812289,
+   "inflation_pct": 53.8594084019764,
+   "gdp_per_capita_usd": 13375.0947282864,
+   "internet_users_pct": 85.96074155
+  },
+  {
+   "country_code": "TUR",
+   "country_name": "Turkiye",
+   "year": 2024,
+   "gdp_growth_pct": 3.3276230893799,
+   "inflation_pct": 58.5064492168435,
+   "gdp_per_capita_usd": 15892.7157287241,
+   "internet_users_pct": 87.3078767
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2015,
+   "gdp_growth_pct": 2.94555045227337,
+   "inflation_pct": 0.11862713555245,
+   "gdp_per_capita_usd": 56849.4697923159,
+   "internet_users_pct": 74.5542024462761
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2016,
+   "gdp_growth_pct": 1.81945147909089,
+   "inflation_pct": 1.26158320570535,
+   "gdp_per_capita_usd": 57976.628204291,
+   "internet_users_pct": 85.5444212887222
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2017,
+   "gdp_growth_pct": 2.45762230126449,
+   "inflation_pct": 2.13011000365961,
+   "gdp_per_capita_usd": 60047.7190728307,
+   "internet_users_pct": 87.2748891687657
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2018,
+   "gdp_growth_pct": 2.96650506701943,
+   "inflation_pct": 2.44258329692816,
+   "gdp_per_capita_usd": 62875.6661382728,
+   "internet_users_pct": 88.498903165152
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2019,
+   "gdp_growth_pct": 2.58382533052225,
+   "inflation_pct": 1.8122100752602,
+   "gdp_per_capita_usd": 65227.9565911038,
+   "internet_users_pct": 89.4302848575712
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2020,
+   "gdp_growth_pct": -2.081375977796,
+   "inflation_pct": 1.23358439630629,
+   "gdp_per_capita_usd": 64465.2971415748,
+   "internet_users_pct": 90.34470367
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2021,
+   "gdp_growth_pct": 6.15202247867526,
+   "inflation_pct": 4.69785886363742,
+   "gdp_per_capita_usd": 71441.2319805947,
+   "internet_users_pct": 91.2684021
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2022,
+   "gdp_growth_pct": 2.52421385073222,
+   "inflation_pct": 8.00279982052121,
+   "gdp_per_capita_usd": 78008.6895811877,
+   "internet_users_pct": 92.72850037
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2023,
+   "gdp_growth_pct": 2.93436322440155,
+   "inflation_pct": 4.11633838374487,
+   "gdp_per_capita_usd": 82586.7847707894,
+   "internet_users_pct": 93.52559662
+  },
+  {
+   "country_code": "USA",
+   "country_name": "United States",
+   "year": 2024,
+   "gdp_growth_pct": 2.79318715363841,
+   "inflation_pct": 2.94952520485207,
+   "gdp_per_capita_usd": 86169.6641581917,
+   "internet_users_pct": 94.69380188
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2015,
+   "gdp_growth_pct": 6.98715430598611,
+   "inflation_pct": 0.631200905175684,
+   "gdp_per_capita_usd": 2577.56885340113,
+   "internet_users_pct": 45.0
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2016,
+   "gdp_growth_pct": 6.69000892660424,
+   "inflation_pct": 2.66824816969082,
+   "gdp_per_capita_usd": 2735.0604380416,
+   "internet_users_pct": 53.0
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2017,
+   "gdp_growth_pct": 6.94019037359206,
+   "inflation_pct": 3.52025688811617,
+   "gdp_per_capita_usd": 2956.10992127753,
+   "internet_users_pct": 58.1400000036297
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2018,
+   "gdp_growth_pct": 7.46500685572751,
+   "inflation_pct": 3.53962805942641,
+   "gdp_per_capita_usd": 3222.31003125366,
+   "internet_users_pct": 69.8479286837965
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2019,
+   "gdp_growth_pct": 7.35926270105006,
+   "inflation_pct": 2.79582367452243,
+   "gdp_per_capita_usd": 3440.90025375434,
+   "internet_users_pct": 68.6615802057338
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2020,
+   "gdp_growth_pct": 2.86541320912272,
+   "inflation_pct": 3.22093436652514,
+   "gdp_per_capita_usd": 3534.03953482647,
+   "internet_users_pct": 70.30000012
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2021,
+   "gdp_growth_pct": 2.55372852648131,
+   "inflation_pct": 1.83471554810461,
+   "gdp_per_capita_usd": 3704.1935590038,
+   "internet_users_pct": 74.20999985
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2022,
+   "gdp_growth_pct": 8.53750041218142,
+   "inflation_pct": 3.15650749963111,
+   "gdp_per_capita_usd": 4147.69777213621,
+   "internet_users_pct": 78.58999918
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2023,
+   "gdp_growth_pct": 4.97865959483225,
+   "inflation_pct": 3.25289282667662,
+   "gdp_per_capita_usd": 4322.82572261566,
+   "internet_users_pct": 78.08
+  },
+  {
+   "country_code": "VNM",
+   "country_name": "Viet Nam",
+   "year": 2024,
+   "gdp_growth_pct": 7.03955197123018,
+   "inflation_pct": 3.62109273885843,
+   "gdp_per_capita_usd": 4716.6599379632,
+   "internet_users_pct": 84.15
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2015,
+   "gdp_growth_pct": 1.32186223678229,
+   "inflation_pct": 4.51869094892506,
+   "gdp_per_capita_usd": 6112.27382485974,
+   "internet_users_pct": 51.91910172
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2016,
+   "gdp_growth_pct": 0.664552307858116,
+   "inflation_pct": 6.60290842394871,
+   "gdp_per_capita_usd": 5651.20585165749,
+   "internet_users_pct": 54.0
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2017,
+   "gdp_growth_pct": 1.15794695181735,
+   "inflation_pct": 5.18618655524149,
+   "gdp_per_capita_usd": 6618.33508255701,
+   "internet_users_pct": 56.16740036
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2018,
+   "gdp_growth_pct": 1.55678384721676,
+   "inflation_pct": 4.50987264867387,
+   "gdp_per_capita_usd": 6914.1780318076,
+   "internet_users_pct": 62.40000153
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2019,
+   "gdp_growth_pct": 0.25993557687633,
+   "inflation_pct": 4.10285075461155,
+   "gdp_per_capita_usd": 6533.71121032856,
+   "internet_users_pct": 69.69689941
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2020,
+   "gdp_growth_pct": -6.1689177146757,
+   "inflation_pct": 3.23238831615113,
+   "gdp_per_capita_usd": 5580.60383075189,
+   "internet_users_pct": 72.1128006
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2021,
+   "gdp_growth_pct": 4.85864865060148,
+   "inflation_pct": 4.61874544887136,
+   "gdp_per_capita_usd": 6828.75624590017,
+   "internet_users_pct": 74.96859741
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2022,
+   "gdp_growth_pct": 2.05813661692193,
+   "inflation_pct": 7.03987272546481,
+   "gdp_per_capita_usd": 6534.24867783397,
+   "internet_users_pct": 78.29319763
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2023,
+   "gdp_growth_pct": 0.80610455095804,
+   "inflation_pct": 6.07524384579659,
+   "gdp_per_capita_usd": 6034.27208964673,
+   "internet_users_pct": 78.33670044
+  },
+  {
+   "country_code": "ZAF",
+   "country_name": "South Africa",
+   "year": 2024,
+   "gdp_growth_pct": 0.534843531905139,
+   "inflation_pct": 4.36115246518962,
+   "gdp_per_capita_usd": 6267.186814093,
+   "internet_users_pct": 78.35759735
+  }
+ ]
+}

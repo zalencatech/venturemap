@@ -1,0 +1,120 @@
+VENTUREMAP - EXPLORATORY DATA ANALYSIS
+Rows (country-years): 250 | countries: 25 | years: 2015-2024
+
+== Descriptive statistics ==
+                    count      mean       std      min      25%       50%       75%       max
+gdp_growth_pct      250.0      2.80      3.51   -10.05     1.31      2.80      5.03     12.00
+inflation_pct       247.0      7.83     19.04    -2.08     1.63      3.27      6.16    219.88
+gdp_per_capita_usd  250.0  26612.10  23668.02  1084.16  4169.10  13965.99  45733.84  94896.56
+internet_users_pct  247.0     73.83     23.82    11.00    59.90     83.34     92.03    100.00
+
+== Missing values ==
+                    missing  missing_pct
+gdp_growth_pct            0          0.0
+inflation_pct             3          1.2
+gdp_per_capita_usd        0          0.0
+internet_users_pct        3          1.2
+
+Missing % by year:
+      gdp_growth_pct  inflation_pct  gdp_per_capita_usd  internet_users_pct
+year                                                                       
+2015             0.0            4.0                 0.0                 0.0
+2016             0.0            4.0                 0.0                 0.0
+2017             0.0            4.0                 0.0                 0.0
+2018             0.0            0.0                 0.0                 0.0
+2019             0.0            0.0                 0.0                 0.0
+2020             0.0            0.0                 0.0                 0.0
+2021             0.0            0.0                 0.0                 4.0
+2022             0.0            0.0                 0.0                 4.0
+2023             0.0            0.0                 0.0                 4.0
+2024             0.0            0.0                 0.0                 0.0
+
+== Q1. Highest GDP growth in 2024 ==
+        country_name  gdp_growth_pct
+               India        7.099279
+            Viet Nam        7.039552
+           Singapore        5.343512
+           Indonesia        5.032575
+               China        4.958304
+          Bangladesh        4.223259
+             Nigeria        4.071067
+United Arab Emirates        3.991812
+              Brazil        3.419315
+             Turkiye        3.327623
+
+== Q2. Internet usage and GDP per capita ==
+GDP per capita is very skewed, so we also use its logarithm.
+Internet users vs log10(GDP per capita)
+  comparable observations (n) : 247
+  Pearson r  (linear)         : 0.872  -> very strong
+  Spearman rho (rank-based)   : 0.835  -> very strong
+
+== Q3. Inflation across countries (all years) ==
+                      count   mean  median    min     max
+country_name                                             
+Argentina                 7  86.29   53.55  34.28  219.88
+Nigeria                  10  17.16   16.10   9.01   33.24
+Turkiye                  10  27.46   15.75   7.67   72.31
+Egypt, Arab Rep.         10  16.36   13.85   5.04   33.88
+Pakistan                 10  10.85    9.62   2.53   30.77
+Bangladesh               10   6.78    5.70   5.51   10.47
+India                    10   4.99    4.95   3.33    6.70
+Mexico                   10   4.74    4.81   2.72    7.90
+South Africa             10   5.02    4.57   3.23    7.04
+Brazil                   10   5.84    4.48   3.21    9.28
+Indonesia                10   3.35    3.36   1.56    6.36
+Viet Nam                 10   2.82    3.19   0.63    3.62
+Saudi Arabia             10   1.65    2.47  -2.04    3.19
+United Kingdom           10   2.95    2.41   0.37    7.92
+United States            10   2.88    2.29   0.12    8.00
+Netherlands              10   2.78    2.17   0.32   10.00
+Canada                   10   2.55    2.11   0.72    6.80
+Australia                10   2.73    1.93   0.85    6.59
+China                    10   1.58    1.78   0.22    2.90
+Korea, Rep.              10   1.95    1.71   0.38    5.09
+United Arab Emirates     10   1.55    1.65  -2.08    5.29
+Germany                  10   2.40    1.62   0.14    6.87
+France                   10   1.84    1.37   0.04    5.22
+Japan                    10   1.09    0.64  -0.23    3.27
+Singapore                10   1.60    0.57  -0.53    6.13
+
+Median inflation across countries, by year:
+year
+2015    1.47
+2016    2.33
+2017    2.34
+2018    3.07
+2019    2.80
+2020    2.42
+2021    3.13
+2022    6.87
+2023    4.88
+2024    3.27
+
+== Q4. GDP growth and inflation ==
+GDP growth vs inflation
+  comparable observations (n) : 247
+  Pearson r  (linear)         : -0.062  -> very weak
+  Spearman rho (rank-based)   : 0.186  -> very weak
+
+== Q5. Illustrative screening (growth, low inflation, income, internet) ==
+Year used: 2024. Equal-weight average of percentile ranks.
+        country_name  gdp_growth_pct  inflation_pct  gdp_per_capita_usd  internet_users_pct  screening_score
+United Arab Emirates        3.991812       1.663365        50273.512624          100.000000             0.84
+           Singapore        5.343512       2.389511        94896.562150           94.377572             0.83
+        Saudi Arabia        2.648931       1.500985        35527.786182          100.000000             0.76
+       United States        2.793187       2.949525        86169.664158           94.693802             0.72
+               China        4.958304       0.218129        13293.116227           92.000000             0.71
+         Korea, Rep.        2.003611       2.321743        36238.639908           97.895638             0.68
+           Australia        1.373408       3.166567        64609.986512           96.131401             0.66
+              Canada        2.046266       2.381584        55015.706692           94.353302             0.66
+         Netherlands        1.073831       3.346399        67465.320813           97.006798             0.62
+             Germany       -0.495852       2.256498        56103.732318           93.499996             0.59
+
+== How to read these results ==
+* Correlation shows association only. It does NOT show that one variable causes another.
+* Country-years from the same country are not independent, so pooled correlations are rough guides.
+* No country is declared 'best for startups'. National averages say little about
+  a single startup: funding, talent, regulation, market access and sector all matter.
+
+Charts saved in: /home/runner/work/venturemap/venturemap/reports/charts
