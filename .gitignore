@@ -1,0 +1,21 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated, large or re-creatable files
+data/raw/
+data/venturemap.db
+data/rejected_records.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# Secrets and OS files (this project needs no secrets)
+.env
+.DS_Store

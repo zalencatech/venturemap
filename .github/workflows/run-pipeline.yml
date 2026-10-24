@@ -1,0 +1,43 @@
+# Lets you run the Python pipeline from the GitHub website (no terminal needed).
+# GitHub -> Actions tab -> "Run VentureMap pipeline" -> Run workflow.
+# It downloads fresh World Bank data, runs the tests and the analysis,
+# and commits the generated files back to the repository.
+name: Run VentureMap pipeline
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed so the job can commit the generated files
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Run the ETL pipeline
+        run: python main.py
+
+      - name: Run the exploratory analysis
+        run: python -m src.analysis
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/venturemap_clean.csv data/venturemap.json data/pipeline_summary.json \
+                  frontend/public/data/venturemap.json reports
+          git diff --staged --quiet || git commit -m "Update generated data and reports"
+          git push
