@@ -1,3 +1,4 @@
+import { GRID, TEAL, TICK } from "../theme.js";
 import { useState } from "react";
 import { CartesianGrid, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis } from "recharts";
 import { isNum, pearson } from "../utils.js";
@@ -27,14 +28,15 @@ export default function ScatterCard({ yearRows, rangeRows, year }) {
   const r = pearson(points.map((p) => Math.log10(p.x)), points.map((p) => p.y));
 
   return (
-    <section id="scatter" className="section section-alt">
+    <section id="scatter" className="section">
       <div className="container">
+        <p className="kicker">05 · Internet vs income</p>
         <h2>Internet usage vs GDP per capita</h2>
         <p className="section-lead">
           Each dot is one country{allYears ? "-year" : ` in ${year}`}. The horizontal axis is logarithmic because incomes differ enormously.
         </p>
 
-        <div className="card chart-card">
+        <div className="glass chart-card">
           <label className="checkbox toggle">
             <input type="checkbox" checked={allYears} onChange={(event) => setAllYears(event.target.checked)} />
             <span>Show all years instead of only {year}</span>
@@ -45,13 +47,13 @@ export default function ScatterCard({ yearRows, rangeRows, year }) {
           ) : (
             <ResponsiveContainer width="100%" height={380}>
               <ScatterChart margin={{ top: 12, right: 24, bottom: 24, left: 4 }}>
-                <CartesianGrid stroke="#E3E6EB" />
+                <CartesianGrid stroke={GRID} />
                 <XAxis type="number" dataKey="x" scale="log" domain={["auto", "auto"]} name="GDP per capita"
-                       tickFormatter={(v) => "$" + Math.round(v).toLocaleString("en-US")} tick={{ fontSize: 12 }}
-                       label={{ value: "GDP per capita, current US$ (log scale)", position: "insideBottom", offset: -14, fontSize: 12 }} />
-                <YAxis type="number" dataKey="y" domain={[0, 100]} name="Internet users" unit="%" tick={{ fontSize: 12 }} width={48} />
+                       tickFormatter={(v) => "$" + Math.round(v).toLocaleString("en-US")} tick={TICK}
+                       label={{ value: "GDP per capita, current US$ (log scale)", position: "insideBottom", offset: -14, fontSize: 12, fill: "#a9b7cf" }} />
+                <YAxis type="number" dataKey="y" domain={[0, 100]} name="Internet users" unit="%" tick={TICK} width={48} />
                 <Tooltip content={<PointTooltip />} cursor={{ strokeDasharray: "3 3" }} />
-                <Scatter data={points} fill="#1F8A8A" fillOpacity={0.75} />
+                <Scatter data={points} fill={TEAL} fillOpacity={0.8} />
               </ScatterChart>
             </ResponsiveContainer>
           )}

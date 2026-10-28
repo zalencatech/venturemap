@@ -37,8 +37,9 @@ export default function CountryTable({ rows, year }) {
   }
 
   return (
-    <section id="countries" className="section section-alt">
+    <section id="countries" className="section">
       <div className="container">
+        <p className="kicker">03 · Countries</p>
         <h2>Country comparison, {year}</h2>
         <p className="section-lead">Click a column heading to sort. A dash (—) means no value is available.</p>
 
@@ -57,7 +58,7 @@ export default function CountryTable({ rows, year }) {
         {rows.length === 0 ? (
           <EmptyNote>No data for the selected year and countries. Select at least one country.</EmptyNote>
         ) : (
-          <div className="table-wrap">
+          <div className="table-wrap glass">
             <table>
               <thead>
                 <tr>

@@ -10,7 +10,7 @@ export function LoadingState() {
 export function ErrorState({ message, onRetry }) {
   return (
     <div className="container">
-      <div className="state-card state-error" role="alert">
+      <div className="glass state-card state-error" role="alert">
         <h2>The dataset could not be loaded</h2>
         <p>{message}</p>
         <button className="button" onClick={onRetry}>Try again</button>
@@ -22,7 +22,7 @@ export function ErrorState({ message, onRetry }) {
 export function SetupState() {
   return (
     <div className="container">
-      <div className="state-card">
+      <div className="glass state-card">
         <h2>No dataset found yet</h2>
         <p>
           This website only shows real results produced by the Python pipeline, and the file
@@ -43,7 +43,7 @@ python main.py`}</pre>
 export function EmptyDatasetState() {
   return (
     <div className="container">
-      <div className="state-card">
+      <div className="glass state-card">
         <h2>The dataset is empty</h2>
         <p>The data file exists but contains no records. Re-run <code>python main.py</code> and check the log for errors.</p>
       </div>

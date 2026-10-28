@@ -1,3 +1,4 @@
+import { CORAL, GRID, TEAL, TICK, TOOLTIP } from "../theme.js";
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { formatValue, indicatorInfo, isNum } from "../utils.js";
 import { EmptyNote } from "./States.jsx";
@@ -12,7 +13,7 @@ export default function RankBar({ rows, field, title }) {
   const missingCount = rows.length - data.length;
 
   return (
-    <div className="card chart-card">
+    <div className="glass chart-card">
       <h3>{title}</h3>
       <p className="chart-sub">{info.unit}</p>
       {data.length === 0 ? (
@@ -21,13 +22,13 @@ export default function RankBar({ rows, field, title }) {
         <div className="chart-scroll">
           <ResponsiveContainer width="100%" height={Math.max(180, data.length * 26 + 40)}>
             <BarChart data={data} layout="vertical" margin={{ top: 4, right: 24, bottom: 4, left: 8 }}>
-              <CartesianGrid horizontal={false} stroke="#E3E6EB" />
-              <XAxis type="number" tick={{ fontSize: 12 }} />
-              <YAxis type="category" dataKey="name" width={120} tick={{ fontSize: 12 }} interval={0} />
-              <Tooltip formatter={(value) => formatValue(value, field)} cursor={{ fill: "rgba(11,31,58,0.05)" }} />
+              <CartesianGrid horizontal={false} stroke={GRID} />
+              <XAxis type="number" tick={TICK} />
+              <YAxis type="category" dataKey="name" width={120} tick={TICK} interval={0} />
+              <Tooltip {...TOOLTIP} formatter={(value) => formatValue(value, field)} cursor={{ fill: "rgba(255,255,255,0.06)" }} />
               <Bar dataKey="value" name={info.label} radius={[0, 3, 3, 0]}>
                 {data.map((item) => (
-                  <Cell key={item.name} fill={item.value < 0 ? "#B4553A" : "#1F8A8A"} />
+                  <Cell key={item.name} fill={item.value < 0 ? CORAL : TEAL} />
                 ))}
               </Bar>
             </BarChart>

@@ -1,8 +1,9 @@
+import { GRID, LEGEND_STYLE, TICK, TOOLTIP } from "../theme.js";
 import { CartesianGrid, Legend, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { formatValue, indicatorInfo, median } from "../utils.js";
 import { EmptyNote } from "./States.jsx";
 
-const COLORS = ["#0B1F3A", "#1F8A8A", "#B4553A", "#8A6FBF", "#C9A227", "#5B7B9A"];
+const COLORS = ["#35c5c0", "#e3b45c", "#ff8a5c", "#a78bfa", "#7dd3fc", "#f472b6"];
 const MAX_LINES = 6;
 
 // A few countries -> one line each. Many countries -> one line with the median.
@@ -27,7 +28,7 @@ export default function TrendLine({ rows, field, title, countries, selectedCodes
   }
 
   return (
-    <div className="card chart-card">
+    <div className="glass chart-card">
       <h3>{title}</h3>
       <p className="chart-sub">
         {info.unit}
@@ -38,12 +39,12 @@ export default function TrendLine({ rows, field, title, countries, selectedCodes
       ) : (
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data} margin={{ top: 8, right: 16, bottom: 4, left: 0 }}>
-            <CartesianGrid stroke="#E3E6EB" />
-            <XAxis dataKey="year" tick={{ fontSize: 12 }} />
-            <YAxis tick={{ fontSize: 12 }} width={44} />
-            <ReferenceLine y={0} stroke="#8A94A6" />
-            <Tooltip formatter={(value) => formatValue(value, field)} />
-            <Legend wrapperStyle={{ fontSize: 12 }} />
+            <CartesianGrid stroke={GRID} />
+            <XAxis dataKey="year" tick={TICK} />
+            <YAxis tick={TICK} width={44} />
+            <ReferenceLine y={0} stroke="rgba(255,255,255,0.35)" />
+            <Tooltip {...TOOLTIP} formatter={(value) => formatValue(value, field)} />
+            <Legend wrapperStyle={LEGEND_STYLE} />
             {lines.map((line) => (
               <Line key={line.key} type="monotone" dataKey={line.key} name={line.name} stroke={line.color}
                     strokeWidth={2} dot={{ r: 2 }} connectNulls={false} />

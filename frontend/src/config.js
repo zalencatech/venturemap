@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 
 // >>> CHANGE THIS to your own repository address <<<
-export const GITHUB_REPO_URL = "https://github.com/YOUR-USERNAME/venturemap";
+export const GITHUB_REPO_URL = "https://github.com/zalencatech/venturemap";
 
 // The file written by the Python pipeline (frontend/public/data/venturemap.json)
 export const DATA_URL = "/data/venturemap.json";
@@ -22,3 +22,11 @@ export const INDICATORS = [
 ];
 
 export const INDICATOR_KEYS = INDICATORS.map((item) => item.key);
+
+// Group members shown on the GROUP INFO page.
+export const GROUP_MEMBERS = [
+  { name: "Azwer Ullah Khan", roll: "2025-AI-94" },
+  { name: "Adan Qasir Abbas", roll: "2025-AI-192" },
+  { name: "M. Haris", roll: "2025-AI-228" },
+  { name: "Zainab Irshad", roll: "2025-AI-76" },
+];
