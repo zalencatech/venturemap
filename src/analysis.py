@@ -1,12 +1,4 @@
-"""
-analysis.py - Exploratory Data Analysis (EDA) on the CLEAN dataset.
 
-Run after the pipeline:   python -m src.analysis
-
-It answers the five project questions, prints the results, saves a text
-summary to reports/eda_summary.txt and saves charts to reports/charts/.
-Every number is computed from data/venturemap_clean.csv - nothing is typed by hand.
-"""
 
 from pathlib import Path
 
