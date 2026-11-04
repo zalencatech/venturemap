@@ -1,9 +1,4 @@
-"""
-config.py - every setting of the project lives here.
 
-If you want to change the countries or the years, this is the only file
-you need to edit. All other modules import their settings from here.
-"""
 
 from pathlib import Path
 
