@@ -1,9 +1,3 @@
-"""
-main.py - the entry point. Run it with:   python main.py
-
-It runs the whole ETL pipeline. The website is not needed for this.
-For the exploratory analysis, run afterwards:   python -m src.analysis
-"""
 
 import logging
 import sys
