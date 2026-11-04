@@ -1,20 +1,4 @@
-"""
-extract.py - EXTRACT stage of the ETL pipeline.
 
-Downloads data from the World Bank API. The API answers with a JSON list of
-exactly two items:
-
-    [
-      {"page": 1, "pages": 1, "per_page": 1000, "total": 250, ...},   # item 0: metadata
-      [ {"countryiso3code": "USA", "date": "2020", "value": -2.2,
-         "country": {"id": "US", "value": "United States"}, ...},     # item 1: observations
-        ... ]
-    ]
-
-When something is wrong (for example a bad indicator code) the API still
-answers with HTTP 200, but item 0 contains a "message" and there is no item 1.
-parse_payload() checks for all these cases.
-"""
 
 import json
 import logging
